@@ -1,0 +1,17 @@
+.hero-image {
+    animation: moveVertical 5s infinite ease-in-out;
+    position: relative;
+  }
+  
+  @keyframes moveVertical {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(-20px); /* Moves up */
+    }
+    100% {
+      transform: translateY(0); /* Moves back down */
+    }
+  }
+  
